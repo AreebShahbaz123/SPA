@@ -1,0 +1,46 @@
+PS C:\Users\MUSA\Desktop\SPA> npm run dev
+
+> rideshare-spa@1.0.0 dev
+> vite
+
+
+  VITE v8.3.5  ready in 564 ms
+
+  ➜  Local:   http://localhost:5173/
+  ➜  Network: use --host to expose
+  ➜  press h + enter to show help
+5:10:37 PM [vite] Internal server error: Failed to resolve import "./index.css" from "src/main.jsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: C:/Users/MUSA/Desktop/SPA/src/main.jsx:8:7
+  5  |  import { store } from "./store/index.js";
+  6  |  import App from "./App.jsx";
+  7  |  import "./index.css";
+     |          ^
+  8  |  var _jsxFileName = "C:/Users/MUSA/Desktop/SPA/src/main.jsx";
+  9  |  import { jsxDEV as _jsxDEV } from "react/jsx-dev-runtime";
+      at TransformPluginContext._formatLog (file:///C:/Users/MUSA/Desktop/SPA/node_modules/vite/dist/node/chunks/node.js:8803:39)
+      at TransformPluginContext.error (file:///C:/Users/MUSA/Desktop/SPA/node_modules/vite/dist/node/chunks/node.js:8800:14)
+      at resolveId (file:///C:/Users/MUSA/Desktop/SPA/node_modules/vite/dist/node/chunks/node.js:26594:18)
+      at async file:///C:/Users/MUSA/Desktop/SPA/node_modules/vite/dist/node/chunks/node.js:26693:23
+      at async Promise.all (index 6)
+      at async TransformPluginContext.transform (file:///C:/Users/MUSA/Desktop/SPA/node_modules/vite/dist/node/chunks/node.js:26666:4)
+      at async EnvironmentPluginContainer.transform (file:///C:/Users/MUSA/Desktop/SPA/node_modules/vite/dist/node/chunks/node.js:8582:14)
+      at async loadAndTransform (file:///C:/Users/MUSA/Desktop/SPA/node_modules/vite/dist/node/chunks/node.js:20155:26)
+5:10:37 PM [vite] (client) Pre-transform error: Failed to resolve import "./index.css" from "src/main.jsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: C:/Users/MUSA/Desktop/SPA/src/main.jsx:8:7
+  5  |  import { store } from "./store/index.js";
+  6  |  import App from "./App.jsx";
+  7  |  import "./index.css";
+     |          ^
+  8  |  var _jsxFileName = "C:/Users/MUSA/Desktop/SPA/src/main.jsx";
+  9  |  import { jsxDEV as _jsxDEV } from "react/jsx-dev-runtime";
+5:10:38 PM [vite] (client) Pre-transform error: Failed to resolve import "./pages/PostRide" from "src/App.jsx". Does the file exist?
+  Plugin: vite:import-analysis
+  File: C:/Users/MUSA/Desktop/SPA/src/App.jsx:6:21
+  3  |  import Home from "./pages/Home";
+  4  |  import BrowseRides from "./pages/BrowseRides";
+  5  |  import PostRide from "./pages/PostRide";
+     |                        ^
+  6  |  import MyActivity from "./pages/MyActivity";
+  7  |  var _jsxFileName = "C:/Users/MUSA/Desktop/SPA/src/App.jsx";
