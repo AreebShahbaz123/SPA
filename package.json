@@ -6,7 +6,8 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "test": "vitest run"
   },
   "dependencies": {
     "@reduxjs/toolkit": "^2.14.0",
@@ -16,7 +17,11 @@
     "react-router-dom": "^7.18.5"
   },
   "devDependencies": {
+    "@testing-library/jest-dom": "^7.0.1",
+    "@testing-library/react": "^16.3.3",
     "@vitejs/plugin-react": "^6.2.1",
-    "vite": "^8.3.5"
+    "jsdom": "^29.1.1",
+    "vite": "^8.3.5",
+    "vitest": "^5.1.0"
   }
 }
